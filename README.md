@@ -14,13 +14,13 @@ This repository contains notes on C. No particular order. Recorded as encountere
 
 --> If constant pointer is assigned to a constant variable like *const int /*const ptr;* or other ways when the pointer is const and the var is also const, similar things will happen --- the value can't be changed, neither it can be pointed to a new variable/location.
 
-Examples at: https://www.geeksforgeeks.org/const-qualifier-in-c/  <\br>
+Examples at: https://www.geeksforgeeks.org/const-qualifier-in-c/  </br>
 
-Link for string/ char pointers: https://www.geeksforgeeks.org/whats-difference-between-char-s-and-char-s-in-c/ <\br>
+Link for string/ char pointers: https://www.geeksforgeeks.org/whats-difference-between-char-s-and-char-s-in-c/ </br>
 
 Double stars on char represent address to the pointer to char*(the array).[If confused here, above link will definitely help.]
 
-<\br><\br>
+</br></br>
 
 **Typedef:** Assigns name to an already defined data type. Now this new name can be used to declare variables of this type. Syntax: *typedef datatype_name new_name*. <\br> It has different sytax if used for struct. The new name is written just after closing braces of struct.<\br> If a pointer syntax like * int* x* is assigned as pointer like *typedef int* ptr_maker*, then any number of pointers can be made using this new name. 
 
