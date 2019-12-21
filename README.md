@@ -1,7 +1,7 @@
 # Notes-on-C
 This repository contains notes on C. No particular order. Recorded as encountered.
 -------------------------------------------------------------------------------------------------------------------------------
-**Pointers:** \\
+**Pointers:**  
 --> We can change the value of pointer and we can also change the value of object pointer pointing to. Pointer and value pointed by pointer both are stored in the read-write area. 
 
 --> When using the *Const* qualifier, the value cannot be changed for generally, the value is places in the read-only portion of the memory. 
