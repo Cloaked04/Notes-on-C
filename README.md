@@ -22,5 +22,5 @@ Double stars on char represent address to the pointer to char*(the array).[If co
 
 </br></br>
 
-**Typedef:** Assigns name to an already defined data type. Now this new name can be used to declare variables of this type. Syntax: *typedef datatype_name new_name*. </br> It has different sytax if used for struct. The new name is written just after closing braces of struct.</br> If a pointer syntax like * int* x* is assigned as pointer like *typedef int* ptr_maker*, then any number of pointers can be made using this new name. 
+**Typedef:** Assigns name to an already defined data type. Now this new name can be used to declare variables of this type. Syntax: *typedef <datatype_name> <new_name>*. </br> It has different sytax if used for struct. The new name is written just after closing braces of struct.</br> If a pointer syntax like * int* x* is assigned as pointer like *typedef int* ptr_maker*, then any number of pointers can be made using this new name. 
 
